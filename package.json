@@ -1,6 +1,6 @@
 {
   "name": "bancoapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "api de prueba ripley",
   "main": "index.js",
   "scripts": {
