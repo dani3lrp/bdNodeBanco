@@ -1,0 +1,14 @@
+{
+  "name": "bancoapi",
+  "version": "1.0.0",
+  "description": "api de prueba ripley",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Roa Petrasic",
+  "license": "ISC",
+  "dependencies": {
+    "express-nedb-rest": "^1.4.1"
+  }
+}
