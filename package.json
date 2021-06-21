@@ -2,7 +2,7 @@
   "name": "bancoapi",
   "version": "1.0.1",
   "description": "api de prueba ripley",
-  "main": "/",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
