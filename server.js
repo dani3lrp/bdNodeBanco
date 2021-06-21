@@ -79,6 +79,15 @@ datastore.find({ rut: '13049587-7' }, function (err, docs) {
 var restApi = expressNedbRest();
 restApi.addDatastore('banco', datastore);
 
+//********************************************** */
+// Cross Origin middleware
+oApp.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*")
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
+    next()
+  })
+  //********************************************** */
+
 // setup express server to serve rest service
 oApp.use('/', restApi);
 
