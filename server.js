@@ -89,7 +89,7 @@ oApp.use(function(req, res, next) {
   //********************************************** */
 
 // setup express server to serve rest service
-oApp.use('/', restApi);
+oApp.use('./', restApi);
 
 oApp.listen(9090, function () {
     console.log('you may use nedb rest api at port 9090');
